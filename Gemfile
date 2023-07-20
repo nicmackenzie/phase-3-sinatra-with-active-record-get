@@ -30,6 +30,8 @@ group :development do
   # https://github.com/faker-ruby/faker
   gem "faker", "~> 2.18"
 
+  gem 'puma', '~> 6.3.0'
+
   # Auto-reload the server when files are changed
   # https://github.com/alexch/rerun
   gem "rerun"
